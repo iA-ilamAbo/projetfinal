@@ -1,0 +1,57 @@
+.container{
+  width:100%;
+   margin: auto;
+   background:grey;
+   
+ }
+ .Navbar {
+   background-color: #09024b;
+   color: #ffffff;
+   padding: 10px;
+   display: flex;
+   flex-direction: row; /* Assurez-vous que la direction est "row" pour mettre les éléments sur la même ligne */
+   justify-content: space-between;
+ }
+ 
+ .Navbar-link {
+   color: #ffffff;
+   text-decoration: none;
+   margin-right:4em ;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   align-items: center;
+   font-weight: bold;
+ 
+   
+ }
+ .Footer{
+   color: #ffffff;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: baseline;
+   position: fixed;
+   bottom: 0;
+   background-color: #09024b;
+   width: 100%;
+   margin-left: 0;
+   padding: 1em;
+   text-align: center;
+   font-weight: bold;
+ }
+ .content{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 50vh;
+   font-size: 1em; 
+   gap:2em;
+ }
+ .image-stretch{ 
+     width: 100%;
+ }
+ .textabout{
+   background-color: #0a051b;
+   color: #ffffff;
+ }
